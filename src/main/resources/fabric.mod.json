@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "behind-the-location-bar",
+	"version": "${version}",
+	"name": "Behind the Location bar",
+	"description": "Give you position behind the location bar",
+	"authors": [
+		"wangyupu"
+	],
+	"contact": {
+		"homepage": "https://wangyupu.com",
+		"sources": "https://github.com/wang-yupu/behindlocationbar"
+	},
+	"license": "MIT",
+	"icon": "assets/behind-the-location-bar/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.wangyupu.mcmod.btlb.BehindTheLocationBar"
+		]
+	},
+	"mixins": [
+		"behind-the-location-bar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"accessWidener": "behind-the-location-bar.accesswidener"
+}
